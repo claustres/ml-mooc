@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>Term deposit subscription prediction App</title>
+<body>
+
+<form action = "/predict-form" method="POST">
+	<p> Age:<input name="age" type ="number" value="30" /> </p>
+	<p> Job:<input name="job" type ="text" value="blue-collar" /> </p>
+	<p> Marital:   
+	<select name="marital">
+		<option value="married">married</option>
+		<option value="divorced">divorced</option>
+		<option value="single">single</option>
+		<option value="unknown">unknown</option>
+	</select>
+	<p> Education:<input name="education" type ="text" value="Basic" /> </p>
+	<p> Default: <input name="default" type ="text" value="no" /> </p>
+	<p> Housing:<input name="housing" type ="text" value="yes" /> </p>
+	<p> Loan: <input name="loan" type ="text" value="no" /> </p>
+	<p> Contact:<input name="contact" type ="text" value="cellular" /> </p>
+	<p> Month: <input name="month" type ="text" value="may" /> </p>
+	<p> Day:<input name="day_of_week" type ="text" value="fri" /> </p>
+	<p> Duration: <input name="duration" type ="number" value="487" /> </p>
+	<p> Campaign:<input name="campaign" type ="number" value="2" /> </p>
+	<p> PDays: <input name="pdays" type ="number" value="999" /> </p>
+	<p> Previous: <input name="previous" type ="number" value="0" /> </p>
+	<p> POutcome:<input name="poutcome" type ="text" value="nonexistent" /> </p>
+	<p> Emp: <input name="emp.var.rate" type ="number" value="-1.8" /> </p>
+	<p> Price:<input name="cons.price.idx" type ="number" value="92" /> </p>
+	<p> Conf: <input name="cons.conf.idx" type ="number" value="-46.2" /> </p>
+	<p> EU3M: <input name="euribor3m" type ="number" value="1.31" /> </p>
+	<p> Employed: <input name="nr.employed" type ="number" value="5099.1" /> </p>
+	<p> <input type ="submit" value="submit" /> </p>
+</form>
+</body>
+</html>
